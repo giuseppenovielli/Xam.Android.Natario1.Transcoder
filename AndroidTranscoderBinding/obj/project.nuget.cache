@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "CszDB726jlVSHcoyyknwb1zu/qzPIZHZ/eAaErTSyscmj3d2pH2O6yaSlB/Uo0I/8sKqc0iBbsdW8ZaYaXzpZw==",
+  "success": true,
+  "projectFilePath": "/Users/hrcoffee4/Xam.Android.Natario1.Transcoder/AndroidTranscoderBinding/AndroidTranscoderBinding.csproj",
+  "expectedPackageFiles": [
+    "/Users/hrcoffee4/.nuget/packages/xam.android.natario1.egloo/0.6.1/xam.android.natario1.egloo.0.6.1.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/xamarin.jetbrains.annotations/13.0.0.4/xamarin.jetbrains.annotations.13.0.0.4.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/xamarin.kotlin.stdlib/1.5.30/xamarin.kotlin.stdlib.1.5.30.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/xamarin.kotlin.stdlib.common/1.5.30/xamarin.kotlin.stdlib.common.1.5.30.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/xamarin.kotlin.stdlib.jdk7/1.5.30/xamarin.kotlin.stdlib.jdk7.1.5.30.nupkg.sha512"
+  ],
+  "logs": []
+}

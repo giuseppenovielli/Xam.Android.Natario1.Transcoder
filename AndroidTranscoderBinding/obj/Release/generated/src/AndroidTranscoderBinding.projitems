@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28;ANDROID_29;ANDROID_30;ANDROID_31</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Common.ExactSize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Common.Size.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Common.TrackStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Common.TrackType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Common.TrackTypeKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Audio.ConversionsKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Audio.Remix.DownMixAudioRemixer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Audio.Remix.PassThroughAudioRemixer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Audio.Remix.UpMixAudioRemixer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Audio.ShortsKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Media.MediaCodecBuffers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Media.MediaFormatConstants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Media.MediaFormatProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Pipeline.PipelineKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Pipeline.PipelinesKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Pipeline.StepKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.AvcCsdUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.AvcSpsUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.BitRates.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.DebugKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.EosKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.IMutableTrackMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.ISO6709LocationParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.ITrackMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Utils.TrackMapKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Internal.Video.FrameDropperKt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.IThumbnailerListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.ITranscoderListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resample.DefaultAudioResampler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resample.DownsampleAudioResampler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resample.IAudioResampler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resample.PassThroughAudioResampler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resample.UpsampleAudioResampler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resize.AspectRatioResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resize.AtMostResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resize.ExactResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resize.FractionResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resize.IResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resize.MultiResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Resize.PassThroughResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Sink.DefaultDataSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Sink.IDataSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Sink.InvalidOutputFormatException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Sink.MultiDataSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.AssetFileDescriptorDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.BlankAudioDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.ClipDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.DataSourceWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.DefaultDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.FileDescriptorDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.FilePathDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.IDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.TrimDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Source.UriDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Strategy.DefaultAudioStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Strategy.DefaultVideoStrategies.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Strategy.DefaultVideoStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Strategy.ITrackStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Strategy.PassThroughTrackStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Strategy.RemoveTrackStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Stretch.CutAudioStretcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Stretch.DefaultAudioStretcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Stretch.IAudioStretcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Stretch.InsertAudioStretcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Stretch.PassThroughAudioStretcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Thumbnail.CoverThumbnailRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Thumbnail.IThumbnailRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Thumbnail.SingleThumbnailRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Thumbnail.Thumbnail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Thumbnail.UniformThumbnailRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Thumbnailer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.ThumbnailerOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Time.DefaultTimeInterpolator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Time.ITimeInterpolator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Time.SpeedTimeInterpolator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Transcoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.TranscoderOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Validator.DefaultValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Validator.IValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Validator.WriteAlwaysValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Otaliastudios.Transcoder.Validator.WriteVideoValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

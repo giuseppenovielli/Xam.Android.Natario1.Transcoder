@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>Xam.Android.Natario1.Transcoder</id>
+    <version>0.10.4</version>
+    <title>Xam.Android.Natario1.Transcoder</title>
+    <authors>Giuseppe Novielli, natario1</authors>
+    <owners>Giuseppe Novielli</owners>
+   <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/giuseppenovielli/Xam.Android.Natario1.Transcoder</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.Android Binding of natario1.Transcoder library https://github.com/natario1/Transcoder by Giuseppe Novielli</description>
+    <releaseNotes>Sync Version to original library v0.10.4</releaseNotes>
+    <copyright>Copyright 2022 Giuseppe Novielli</copyright>
+    <tags>xamarin, xamarin.android, natario1.Transcoder, Transcoder</tags>
+    <summary>Xamarin.Android Binding of natario1.Transcoder library https://github.com/natario1/Transcoder by Giuseppe Novielli</summary>
+    <dependencies>
+      <group targetFramework="MonoAndroid12.0">
+          <dependency id="Xamarin.Kotlin.StdLib" version="1.5.30" />
+      </group>
+      <group targetFramework="MonoAndroid12.0">
+          <dependency id="Xamarin.Kotlin.StdLib.Jdk7" version="1.5.30" />
+      </group>
+      <group targetFramework="MonoAndroid12.0">
+          <dependency id="Xam.Android.Natario1.Egloo" version="0.6.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LICENSE" />
+    <file src="AndroidTranscoderBinding/bin/Release/AndroidTranscoderBinding.dll" target="lib/MonoAndroid12.0/AndroidTranscoderBinding.dll" />
+	</files>
+</package>
