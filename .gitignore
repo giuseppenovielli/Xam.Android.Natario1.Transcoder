@@ -1,0 +1,13 @@
+.DS_Store/
+.vs/
+
+AndroidTranscoderBinding/.DS_Store/
+AndroidTranscoderBinding/.vs/
+
+AndroidTranscoderBinding/.DS_Store/
+
+AndroidTranscoderBinding/bin/
+AndroidTranscoderBinding/obj/
+
+*.jar
+*.aar
